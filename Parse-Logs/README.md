@@ -18,6 +18,15 @@ cd bbdi/code-samples
 python parse-mongo.py
 ```
 
+MongoDB has created a [great tutorial](http://api.mongodb.org/python/current/tutorial.html) on how to interface with MongoDB.  
+
+The creators of MongoDB also developed an R package, `rmongodb`, which provides similar functionality.  To install, simply:
+
+```
+install.packages("rmongodb")
+```
+
+
 
 
 ## Tweaks
