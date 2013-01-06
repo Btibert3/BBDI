@@ -28,4 +28,10 @@ By no means is this a production-worthy program, but it does the job.  To custom
 
 ## Watchouts
 - Make sure that you have the MongoDB server running on your local machine
-- I would recommend opening the script
+- I would recommend opening the script in your python tool of choice and running the code interactively to ensure your python environment is setup properly.
+
+
+## Summary
+Using `parse-mongo.py`, I successfully parsed and inserted `3919713` tweets in 1 hour and 27 minutes.  I attempted to use `R` for this task, but Python provided to be a far superior tool with respect to performance.
+
+
