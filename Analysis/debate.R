@@ -22,7 +22,8 @@ PATTERN <- "#debate"
 ###############################################################################
 
 ## connect - I am using the mongodb running on another machine at home
-mongo <- mongo.create("192.168.1.69")
+# mongo <- mongo.create("192.168.1.69")
+mongo <- mongo.create()
 mongo.is.connected(mongo)
 
 ## confirm that we see data
@@ -30,7 +31,7 @@ mongo.get.databases(mongo)
 mongo.get.database.collections(mongo, DB)
 
 ## select 1 record -- see help above for SQL mapping
-mongo.count(mongo, "bbdi.bbdi")
+mongo.count(mongo, COLLECTION)
 tmp <- mongo.find.one(mongo, COLLECTION)
 class(tmp) # what do we have?
 tmp <- mongo.bson.to.list(tmp) # convert to a list
@@ -40,7 +41,7 @@ tmp$text # show the text
 
 
 ###############################################################################
-## Iterate over the data and store the tweets
+## Iterate over the data and store the tweets - nearly 4MM
 ###############################################################################
 
 ## create a data frame to store our data
