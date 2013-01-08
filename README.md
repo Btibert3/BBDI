@@ -1,5 +1,7 @@
 # About This Project
 
+
+
 ## Overview
 I wanted to share some code that I built to parse the Twitter log files using python and [MongoDB](http://www.mongodb.org/), a NoSQL database.  The goal is to highlight how we could parse and analyze a _small sample_ of the data we collected on our local machines.  Of course, this is not a substitute for our production environment, but it could prove to be useful for anyone that wants to get an idea as to what the data look like.
 
