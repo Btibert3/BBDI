@@ -9,3 +9,4 @@
 while true; do
     curl -s -m 3600 -u twitterusername:twitterpassword https://stream.twitter.com/1/statuses/sample.json -o "twtstream_$(date +%Y%m%d%H).txt"
 done
+
