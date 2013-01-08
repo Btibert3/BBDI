@@ -10,7 +10,7 @@ I wanted to share some code that I built to parse the Twitter log files using py
 - MongoDB:  The installation is real easy from the command line.
 
 
-When developing Python code, it is worth looking into ipython, and more specifically, the ipython web notebook.  This is a fantastic web-based tool that allows us to rapidly test and build code.  I use ipython to write my code samples, download the commands, and then clean up the code to generate the final script. 
+When developing Python code, it is worth looking into ipython, and more specifically, the ipython web notebook.  This is a fantastic web-based tool that allows us to rapidly test and build code.  I use ipython to write my code samples, download the commands, and then clean up the code in another editor to generate the final script. 
 
 Also worth noting is Spyder, is an RStudio-like IDE that can be helpful as well.  It plays nice with ipython, but still lacks some of the great aspects of RStudio.  I am going to keep my eye on the development of this tool.
 
